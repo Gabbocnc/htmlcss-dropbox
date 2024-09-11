@@ -281,7 +281,7 @@ header{
 
     }
 }
-/* business */
+/* partner */
 .business{
    h3{
     margin-top: 200px;
@@ -300,6 +300,21 @@ header{
             & p{
                 font-size: 20px;
             }
+        }
+    }
+}
+/* operation */
+.userscount{
+    margin-top: 150px;
+    .row{
+        .col-12{
+           & div{
+            font-size: 40px;
+            font-weight: bold;
+           }
+           & a{
+            font-size: 20px;
+           } 
         }
     }
 }
