@@ -33,9 +33,7 @@ img{
     width: calc((100% / 12)* 8);
 }
 .col-12{
-    width: calc((100% / 12)* 12);
-
-    
+    width: calc((100% / 12)* 12);    
 }
 .container-small{
     margin-left: 150px;
@@ -318,3 +316,18 @@ header{
         }
     }
 }
+/* usercount */
+/* .grid{
+    img{
+        aspect-ratio: 1/1 ;
+        background-color: rgb(255, 0, 0);
+
+    }
+}
+
+.grid{
+    display: inline-grid;
+    grid-template-columns:  100px 100px 200px 100px 100px ;
+    gap: ;
+
+ */
