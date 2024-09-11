@@ -23,11 +23,22 @@ img{
 .row{
     display: flex;
 }
+.col-3{
+    width: calc((100% / 12)* 3);
+}    
 .col-4{
     width: calc((100% / 12)* 4);
 }
 .col-8{
     width: calc((100% / 12)* 8);
+}
+.col-12{
+    width: 100%;
+}
+.container-small{
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 500px;
 }
 
 /* #endregion utilities */
@@ -114,6 +125,63 @@ header{
             position: absolute;
             margin-top: 30px;
         }
+    }
+}
+/* plans */
+#plans{
+    margin-top: 100px;
+    background-color: aqua;
+    
+}
+.container-small{
+
+
+    h3{
+        font-size: 25px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .col-4{
+        border: 1px solid black;
+        margin-top: 30px;
+        margin-inline: 15px;
+        
+
+
+
+        h5{
+            text-align: center;
+            border-bottom: 1px solid black;
+            font-size: 10px;
+        }
+       
+        ul{
+            list-style: none;
+        }
+       
+        li{
+            padding-bottom: 20px;
+            font-size: 10px;
+        }
+        input{
+            font-size: 8px;
+            border: none;
+            background-color: var(--button);
+            color: white;
+            padding: 5px;
+        }
+    }
+}
+
+.billing{
+    
+    .checkmark{
+        font-size: 12px;
+        padding-right: 20px;
+    }
+    input{
+        margin-right: 5px;
+        vertical-align: middle;
     }
 }
 
