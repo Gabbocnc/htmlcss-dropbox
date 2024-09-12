@@ -289,16 +289,21 @@ header{
         gap: 100px;
         vertical-align: middle;
         text-align: left;
-        
+    
+
+
         & input{
-            margin-bottom: 30px;
             position: absolute;
-            right: 70px;
+            right: 50px;
             vertical-align: middle;
+            margin: 0;
+            padding: 0;
         }
     }
     .radiocheck{
         position: relative;
+        margin-top: 30px;
+        margin-left: -35px;
     } 
       
 /* PLANS */
