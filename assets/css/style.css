@@ -445,12 +445,13 @@ header{
     }
 }
 #faq{
-    height: 500px;
+    
     & .container-small{
         padding-top: 70px;
         
         :nth-child(4){
             border-bottom: 1px solid black;
+            margin-bottom: 100px;
         }
     }
     & h3{
@@ -466,7 +467,7 @@ header{
     }
         .ask{
             border-bottom: 1px  black;
-            border-top: 1px solid black;        
+            border-top: 1px solid black;       
         }
         details>summary {
  
@@ -484,4 +485,44 @@ header{
             content: "▼";
           }
         }
+ /* faq */ 
+#contentinfo{
+    background-color: black;
+    color: white;
+        
+        & hr{
+            width: 100px;
+            margin-left: 150px;
+        }
+        i{
+            padding-right: 10px;
+            vertical-align: middle;
+        }
+        span{
+            padding-right: 10px;
+        }
+    
+    & .container{
+        margin-left: 150px;
+        padding-top: 100px; 
+        padding-bottom: 100px;
+        
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        & h4{
+            font-size: 30px;
+        }
+
+        li{
+            padding-right: 200px;
+            padding-top: 30px;
+        }
+        
+
+    }
+}
         
