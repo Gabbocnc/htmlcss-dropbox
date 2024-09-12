@@ -7,9 +7,20 @@
 :root{
     --button: #0061ff;
     --light-blue: #b4d0e7;
+    --light-designt: #a2d39b;
+    --arizona: #61082b;
+    --florida: #0093ce;
+    --topps: #ff1c1c;
+    --bicycle: #d5001f;
+    --lonely: #0d2481;
+    --hearts: #b4d0e7;
+    --channel: #ffd830;
+
+
+
 }
-.debug{
-    border: 1px dashed black;
+.debug *{
+    border: 3px dashed black;
 }
 img{
     max-width: 100%;
@@ -33,11 +44,12 @@ img{
     width: calc((100% / 12)* 8);
 }
 .col-12{
-    width: calc((100% / 12)* 12);    
+    width: calc((100% / 12)* 12); 
+    margin-left: -0.5rem;   
 }
 .container-small{
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 .borderbottom{
     border-bottom: 1px solid #ededed;
@@ -66,6 +78,9 @@ ul{
 }
 .bold{
     font-weight: bold;
+}
+.card{
+    border: 1px solid #ededed;
 }
 /* #endregion utilities */
 
@@ -156,25 +171,23 @@ header{
 }
 /* jumbotron */
 #plans{
-    margin-top: 100px;
+    margin-top: 200px;
     
 }
 .planebuisness{
 
-        .row{
-            
-        }
     
         & h3{
             font-size: 30px;
             text-align: left;
             margin-bottom: 20px;
+            margin-left: 22px;
          }
 
 
         & h5{
             text-align: center;
-            font-size: 27px;
+            font-size: 15px;
             padding-bottom: 10px;
             padding: 2px;
         }
@@ -191,7 +204,7 @@ header{
        
         & li{
             padding-bottom: 20px;
-            font-size: 17px;
+            font-size: 18px;
         }
         & input{
             font-size: 15px;
@@ -199,7 +212,9 @@ header{
             background-color: var(--button);
             color: white;
             padding: 5px;
-            margin-left: 120px;
+            width: 200px;
+            margin-left: 10px;
+            margin-right: 10px;
         }
         #professional{
             :nth-child(2){
@@ -207,13 +222,16 @@ header{
             }
 
         }
-    }        
-
+          
+        .col-4{
+            width: 300px;
+            margin: 25px;
+        }
         
     .col-12{
-        border: 1px solid #ededed;
         margin: 15px;
         position: relative;
+        padding: 6px;
 
         & div{
             padding: 5px;
@@ -237,6 +255,7 @@ header{
         & li{
             margin-left: 20px;
             font-size: 20px;
+            text-align: left;
         }
         & h6{
             font-size: 35px;
@@ -254,38 +273,38 @@ header{
             :nth-child(3){
                 margin-bottom: 40px;
             }
-      
-       
         }
-   
+        
     }
-
+}
     .billing{
         margin-bottom: 30px;
+        margin-left: 80px;
+        gap: 100px;
+        vertical-align: middle;
         text-align: left;
-        position: relative;
+
+        #invoicing{
+        }
         
-       
         & input{
-            margin-right: 10px;
+            margin-bottom: 30px;
+            position: absolute;
+            right: 70px;
             vertical-align: middle;
-            margin-bottom: 30p;
-            
         }
     }
     .radiocheck{
         position: relative;
-        right: 150px;
-    }  
-
-}
-  
+    }    
 /* PLANS */
 .findpartner{
     margin-top: 50px;
+    padding-left: 21px;
     
     .col-4{
-        padding: 20px;
+        padding-inline: 10px;
+        margin-left: 30px;
         
        & h3{
             font-size: 40px;
@@ -314,6 +333,7 @@ header{
     .row{
         margin-bottom: 50px;
         margin-top: 50px;
+        gap: 50px;
         .col-4{
         
             & h5{
@@ -322,7 +342,7 @@ header{
 
             }
             & p{
-                font-size: 20px;
+                font-size: 17px;
             }
             
         }
@@ -335,8 +355,10 @@ header{
     .row{
         .col-12{
            & div{
-            font-size: 40px;
+            font-size: 35px;
             font-weight: bold;
+            text-align: left;
+            margin-left: -0.5rem;
            }
            & a{
             font-size: 20px;
@@ -344,20 +366,64 @@ header{
         }
     }
 }
-
-    
-    
-
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1,1fr);
-    text-align: center;
+/* affiliate */
+.square{
+    width: 260px;
+    height: 260px;
+    padding: 60px;
 }
-.lonely{
-    grid-column-end: 5;
-
+.left{
+    flex-wrap: wrap;
 }
+.left div:nth-child(1){
+    background-color: var(--light-designt);
+    border: 20px solid #d1e9cd;
+}
+.left div:nth-child(2){
+    background-color: var(--arizona);
+}
+.left div:nth-child(3){
+    background-color: var(--florida);
+}
+.left div:nth-child(4){
+    background-color: var(--topps);
+}
+/* leftsquare */
+.center{
+    width: 90%;
+    position: relative;
 
-
+    img{
+        position: absolute;
+        bottom: 260px; 
+        left: 50px;
+    }
+    
+    :nth-child(2){
+        font-size: 20px;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    :nth-child(3){
+    }
+}
+.centercontainer{
+    margin: 50px;
+}
+/* center */
+.right{
+    flex-wrap: wrap;
+}
+.right div:nth-child(1){
+    background-color: var(--bicycle);
+}
+.right div:nth-child(2){
+    background-color: var(--hearts);
+}
+.right div:nth-child(3){
+    background-color: var(--lonely);
+}
+.right div:nth-child(4){
+    background-color: var(--channel);
+}
+/* right */

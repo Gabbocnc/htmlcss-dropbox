@@ -60,8 +60,12 @@
             <div class=" planebuisness container-small">
                 <h3>Trova il piano business che fa per te </h3>
                 <div class="billing dflex">
-                    <div class="radiocheck"><input type="radio">Fatturazione mensile</div>
-                    <div class="radiocheck"><input type="radio">Fatturazione annuale</div>
+                    <div class="radiocheck"><input type="radio">
+                        <div id="invoicing">Fatturazione mensile</div>
+                    </div>
+                    <div class="radiocheck"><input type="radio">
+                        <div>Fatturazione annuale</div>
+                    </div>
                 </div>
                 <div class="row">
                     <div id="colored" class="col-4">
@@ -116,7 +120,7 @@
                             <li><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</li>
                             <li><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere
                                 al sicuro tutti i file del tuo team</li>
-                            <li><input type="button" value="Prova gratis per 30 giorni"></li>
+                            <li><input type="button" value="Contattaci"></li>
                             <li>oppure <a href="#">acquista ora</a></li>
                             <ul>
                                 <h6>Punti salienti del piano</h6>
@@ -127,20 +131,27 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row big">
-                    <div class="col-12">
+                <div class="col-12">
+                    <div class="card">
                         <div class="borderbottom"><i class="fa-solid fa-building">Team</i></div>
                         <ul>
                             <li>
                                 <h6>Enterprise</h6>
                             </li>
-                            <li>Contatta l'ufficio vendite per i prezzi</li>
-                            <li>Soluzioni personallizate e support su misura per aiutare i professionisti IT nella
+                            <li>
+                                Contatta l'ufficio vendite per i prezzi
+                            </li>
+                            <li>
+                                Soluzioni personallizate e support su misura per aiutare i professionisti IT nella
                                 gestione su qualsiasi scala.</li>
-                            <li><input type="button" value="Contatta l'ufficio vendite"></li>
+                            <li>
+                                <input type="button" value="Contatta l'ufficio vendite">
+                            </li>
                         </ul>
                     </div>
+
                 </div>
+            </div>
             </div>
         </section>
         <!-- plans -->
@@ -242,34 +253,62 @@
         </section>
         <!-- userscount -->
         <section class="affiliate">
-            <div class="grid">
-
-
-                        <div class="designt"><img src="./assets/img/designit.svg" alt=""></div>
-                
-                        <div class="arizona"><img src="./assets/img/arizona_state_university.svg" alt=""></div>
-                    
-                     
-                        <div class="company"><img src="./assets/img/designit.svg" alt="">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste officiis eius magnam quasi, corporis dolores labore vitae ab minus inventore voluptatem deleniti maiores odit debitis aperiam quidem, ex molestias, maxime officia esse velit nesciunt. Harum impedit aperiam illo excepturi iste ex similique ad! Enim dicta maxime quos inventore doloremque! Eveniet.
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste officiis eius magnam quasi, corporis dolores labore vitae ab minus inventore voluptatem deleniti maiores odit debitis aperiam quidem, ex molestias, maxime officia esse velit nesciunt. Harum impedit aperiam illo excepturi iste ex similique ad! Enim dicta maxime quos inventore doloremque! 
+            <div class="container-big">
+                <div class="logos dflex">
+                    <div class="left dflex">
+                        <div class="square"><img src="./assets/img/designit.svg" alt=""></div>
+                        <div class="square"><img src="./assets/img/arizona_state_university.svg" alt=""></div>
+                        <div class="square"><img src="./assets/img/university_of_florida.svg" alt=""></div>
+                        <div class="square"><img src="./assets/img/topps.svg" alt=""></div>
+                    </div>
+                    <div class="center dflex">
+                        <div class="centercontainer">
+                            <img src="./assets/img/designit.svg" alt="">
+                            <div>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi.
+                                Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto
+                                Dropboxe Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma
+                                nessuna è facile quanto Dropboxe Dropbox Paper.</div>
+                            <div>Morten Thomsen, Global IT Lead</div>
                         </div>
-                    
-                        <div class="bicycle"><img src="./assets/img/world_bicycle_relief.svg" alt=""></div>
-                    
-                        <div class="bicycle"><img src="./assets/img/world_bicycle_relief.svg" alt=""></div>
-                    
-                   
-                        <div class="florida"><img src="./assets/img/university_of_florida.svg" alt=""></div>
-                
-                   
-                        <div class="topps"><img src="./assets/img/topps.svg" alt=""></div>
-                    
-                   
-                        <div class="lonely"><img src="./assets/img/lonely_planet.svg" alt=""></div>
-                    
-                   
-                        <div class="clear"><img src="./assets/img/clear_channel.svg" alt=""></div>
+
+                    </div>
+                    <div class="right dflex">
+                        <div class="square">
+                            <img src="./assets/img/world_bicycle_relief.svg" alt="">
+                        </div>
+                        <div class="square">
+                            <img src="./assets/img/hearst_corp.svg" alt="">
+                        </div>
+                        <div class="square">
+                            <img src="./assets/img/lonely_planet.svg" alt="">
+                        </div>
+                        <div class="square">
+                            <img src="./assets/img/clear_channel.svg" alt="">
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
 
 
 
@@ -277,6 +316,24 @@
 
 
 
+        </section>
+        <section id="faq">
+            <div class="container-small">
+                <h3>Domande Frequenti</h3>
+
+                <div class="faq">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum animi praesentium accusantium
+                    numquam nulla distinctio vitae blanditiis illo ut?
+                </div>
+                <div class="faq">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum animi praesentium accusantium
+                    numquam nulla distinctio vitae blanditiis illo ut?
+                </div>
+                <div class="faq">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum animi praesentium accusantium
+                    numquam nulla distinctio vitae blanditiis illo ut?
+                </div>
+
 
 
 
@@ -288,13 +345,6 @@
 
 
 
-
-
-
-
-
-
-            </div>
 
 
 
@@ -335,7 +385,6 @@
 
 
 
-        </section>
 
 
 
@@ -360,10 +409,6 @@
 
 
 
-
-
-
-        </section>
 
 
 
