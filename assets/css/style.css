@@ -36,8 +36,8 @@ img{
     width: calc((100% / 12)* 12);    
 }
 .container-small{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 .borderbottom{
     border-bottom: 1px solid #ededed;
@@ -49,9 +49,24 @@ ul{
     list-style: none;
 }
 .checkmark{
-    color: green;
+    color: var(--button);
+    font-size: 25px;
+    font-weight: bold;
+}
+#colored{
+    border: 1px solid #ededed;
+}
+.borderbottom{
+    border-bottom: 1px solid #ededed;
 }
 
+#plancategory{
+    font-size: 23px;
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+}
 /* #endregion utilities */
 
 /* #region header */
@@ -145,11 +160,11 @@ header{
     
 }
 .planebuisness{
-    
-        #colored{
-            border: 1px solid #ededed;
-        }
 
+        .row{
+            
+        }
+    
         & h3{
             font-size: 30px;
             text-align: left;
@@ -159,21 +174,24 @@ header{
 
         & h5{
             text-align: center;
-            border-bottom: 1px solid #ededed;
             font-size: 27px;
+            padding-bottom: 10px;
+            padding: 2px;
         }
        
         & h6{
-            text-align: center;
+            text-align: left;
             margin-bottom: 20px;
-            font-size: 25px;
+            font-size: 20px;
 
+        }
+        & ul{
+            padding: 20px;
         }
        
         & li{
             padding-bottom: 20px;
             font-size: 17px;
-            padding-left: 5px;
         }
         & input{
             font-size: 15px;
@@ -181,8 +199,15 @@ header{
             background-color: var(--button);
             color: white;
             padding: 5px;
-            margin-left: 150px;
+            margin-left: 120px;
         }
+        #professional{
+            :nth-child(2){
+                font-size: 30;
+            }
+
+        }
+    }        
 
         
     .col-12{
@@ -224,6 +249,7 @@ header{
             :nth-child(2){
                 margin-bottom: 40px;
                 font-weight: bolder;
+
             }
             :nth-child(3){
                 margin-bottom: 40px;
@@ -281,15 +307,15 @@ header{
 }
 /* partner */
 .business{
-   h3{
+   & h3{
     margin-top: 200px;
-    font-size:50px;
+    font-size:  35px;;
    } 
     .row{
         margin-bottom: 50px;
         margin-top: 50px;
-        padding-inline: 10px;
         .col-4{
+        
             & h5{
                 font-size: 30px;
                 margin-bottom: 20px;
@@ -298,12 +324,14 @@ header{
             & p{
                 font-size: 20px;
             }
+            
         }
     }
 }
 /* operation */
 .userscount{
     margin-top: 150px;
+    margin-bottom: 150px;
     .row{
         .col-12{
            & div{
@@ -316,15 +344,10 @@ header{
         }
     }
 }
-.container-big{
+
     
     
 
-
-
-
-
-}
 
 .grid{
     display: grid;
@@ -336,3 +359,5 @@ header{
     grid-column-end: 5;
 
 }
+
+
