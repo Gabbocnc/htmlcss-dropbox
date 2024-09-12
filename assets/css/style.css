@@ -427,3 +427,22 @@ header{
     background-color: var(--channel);
 }
 /* right */
+.call-to-action{
+    background-color: var(--hearts);
+    margin-top: 100px;
+    height: 300px;
+
+    h2{
+        font-size: 35px ;
+        color: var(--arizona);
+    }
+    input{
+        border: none;
+        width: 200px;
+        height: 50px;
+    }
+
+}
+.container-small{
+    padding-top: 100px;
+}
