@@ -172,6 +172,12 @@ header{
 /* jumbotron */
 #plans{
     margin-top: 200px;
+
+    hr{
+        width: 50px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
     
 }
 .planebuisness{
@@ -283,9 +289,6 @@ header{
         gap: 100px;
         vertical-align: middle;
         text-align: left;
-
-        #invoicing{
-        }
         
         & input{
             margin-bottom: 30px;
@@ -296,7 +299,8 @@ header{
     }
     .radiocheck{
         position: relative;
-    }    
+    } 
+      
 /* PLANS */
 .findpartner{
     margin-top: 50px;
@@ -355,14 +359,16 @@ header{
     .row{
         .col-12{
            & div{
-            font-size: 35px;
+            font-size: 50px;
             font-weight: bold;
             text-align: left;
             margin-left: -0.5rem;
            }
+
            & a{
-            font-size: 20px;
-           } 
+            font-size: 15px;
+           }
+            
         }
     }
 }
@@ -525,4 +531,4 @@ header{
 
     }
 }
-        
+/* footer */       
