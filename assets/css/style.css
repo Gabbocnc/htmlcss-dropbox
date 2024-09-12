@@ -429,20 +429,59 @@ header{
 /* right */
 .call-to-action{
     background-color: var(--hearts);
-    margin-top: 100px;
     height: 300px;
 
-    h2{
+    & h2{
         font-size: 35px ;
         color: var(--arizona);
     }
-    input{
+    & input{
         border: none;
         width: 200px;
         height: 50px;
     }
-
+    & .container-small{
+        padding-top: 100px;
+    }
 }
-.container-small{
-    padding-top: 100px;
-}
+#faq{
+    height: 500px;
+    & .container-small{
+        padding-top: 70px;
+        
+        :nth-child(4){
+            border-bottom: 1px solid black;
+        }
+    }
+    & h3{
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    & summary{
+        padding-top: 30px;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+        .ask{
+            border-bottom: 1px  black;
+            border-top: 1px solid black;        
+        }
+        details>summary {
+ 
+            list-style: none;
+          }
+          summary::-webkit-details-marker {
+            display: none
+          }
+          
+          summary::after {
+            content: '►';
+            padding-left: 150px
+          }
+          details[open] summary:after {
+            content: "▼";
+          }
+        }
+        
