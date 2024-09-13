@@ -409,12 +409,12 @@ header{
 }
 /* leftsquare */
 .center{
-    width: 90%;
+    width: 100%;
     position: relative;
 
     img{
         position: absolute;
-        bottom: 260px; 
+        bottom: 230px; 
         left: 50px;
     }
     
@@ -427,7 +427,7 @@ header{
     }
 }
 .centercontainer{
-    margin: 50px;
+    padding: 60px;
 }
 /* center */
 .right{
@@ -445,10 +445,13 @@ header{
 .right div:nth-child(4){
     background-color: var(--channel);
 }
+
+   
+
 /* right */
 .call-to-action{
     background-color: var(--hearts);
-    height: 300px;
+    padding-bottom: 100px;
 
     & h2{
         font-size: 35px ;
