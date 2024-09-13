@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* #region root */
 :root{
     --button: #0061ff;
@@ -220,6 +221,12 @@ header{
             padding-bottom: 20px;
             font-size: 18px;
         }
+        & .try30{
+            padding-top: 40px;
+        }
+        & .contactus{
+            padding-top: 20px;
+        }
         & input{
             font-size: 15px;
             border: none;
@@ -227,8 +234,7 @@ header{
             color: white;
             padding: 5px;
             width: 200px;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 50px;
         }
         #professional{
             :nth-child(2){
@@ -236,16 +242,14 @@ header{
             }
 
         }
-          
-        .col-4{
-            width: 300px;
-            margin: 25px;
+    
+        .row{
+            gap: 30px;
         }
         
     .col-12{
-        margin: 15px;
+        margin-top: 20px;
         position: relative;
-        padding: 6px;
 
         & div{
             padding: 5px;
@@ -307,6 +311,7 @@ header{
             margin: 0;
             padding: 0;
         }
+        
     }
     .radiocheck{
         position: relative;
@@ -317,7 +322,6 @@ header{
 /* PLANS */
 .findpartner{
     margin-top: 50px;
-    padding-left: 21px;
     
     .col-4{
         padding-inline: 10px;
