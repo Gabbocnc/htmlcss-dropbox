@@ -83,6 +83,10 @@ ul{
 .card{
     border: 1px solid #ededed;
 }
+.cs{
+    margin-left: 0;
+    margin-right: 0;
+   }
 /* #endregion utilities */
 
 /* #region header */
@@ -225,7 +229,7 @@ header{
             padding-top: 40px;
         }
         & .contactus{
-            padding-top: 20px;
+            padding-top: 40px;
         }
         & input{
             font-size: 15px;
@@ -391,8 +395,8 @@ header{
 }
 /* affiliate */
 .square{
-    width: 260px;
-    height: 260px;
+    width: 230px;
+    height: 230px;
     padding: 60px;
 }
 .left{
@@ -551,4 +555,69 @@ header{
 
     }
 }
-/* footer */       
+/* footer */     
+
+
+
+/* /* media query */
+@media screen and (max-width:768px){
+    .menu{
+     font-size: 15px;
+    }
+    .container-jumbo{
+         .row{
+             .col-8{
+                 img{
+                     margin-top: 100px;
+                 }
+             }
+         }
+    }
+ 
+    .container-small{
+     margin-left: 0;
+     margin-right: 0;
+    }
+    .planebuisness{
+     .row{
+         flex-direction: column;
+ 
+         & input{
+             margin-left: 0;
+         }
+ 
+     }
+ 
+     .col-12{
+         input{
+             margin-left: 40px;
+             font-size: 13px;
+         
+         }
+     }
+    }
+ 
+    .business{
+     .row{
+         .col-4{
+             h5{
+                 font-size: 22px;
+             }
+             p{
+                 font-size: 15px;
+             }
+         }
+     }
+    }
+    .userscount{
+        margin-left: 70px;
+    }
+ 
+    .centercontainer{
+     padding: 0px;
+     margin-bottom: 100px;
+     width: 0;
+     margin-top: 5
+    }
+     
+ } 
